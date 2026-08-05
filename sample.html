@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>قبل ما تشتري الكتاب — اقرأ عينة مجانية</title>
+<meta name="description" content="اقرأ عينة مجانية وشوف إذا كان الكتاب مناسب ليك، من غير دفع أو التزام بالشراء.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;800&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="form-page">
+
+<section class="hero">
+  <div class="container">
+    <span class="eyebrow"><span class="dot"></span> بدون دفع أو التزام</span>
+    <h1>قبل ما تشتري الكتاب</h1>
+    <h2>اقرأ عينة مجانية وشوف إذا كان الكتاب مناسب ليك</h2>
+    <p>مش مطلوب منك تدفع أي حاجة قبل ما تشتري الكتاب. اقرأ جزء منه الأول، وشوف هل المنهج فعلًا بيوصف المشكلة اللي بتواجهها، قبل ما تاخد قرارك.</p>
+  </div>
+</section>
+
+<div class="container">
+  <div class="form-card">
+    <ul class="check-list">
+      <li>هتقدر العينة فورًا بعد التسجيل</li>
+      <li>من غير دفع أو التزام بالشراء</li>
+      <li>بياناتك مش هتتشارك مع أي حد</li>
+    </ul>
+
+    <form id="sampleForm" action="#" method="get">
+      <label for="firstName">اسمك <span class="req">*</span></label>
+      <input type="text" id="firstName" name="firstName" placeholder="اكتب اسمك الأول بس" required autocomplete="given-name">
+
+      <label for="whatsapp">رقم الواتساب <span class="req">*</span></label>
+      <input type="tel" id="whatsapp" name="whatsapp" placeholder="مثال: 01012345678" required inputmode="numeric" pattern="^01[0-9]{9}$" autocomplete="tel">
+
+      <button type="submit" class="btn">اقرأ العينة المجانية دلوقتي</button>
+    </form>
+    <p class="trust-note">بضغطك على الزر، هتنتقل مباشرة لقراءة العينة المجانية</p>
+  </div>
+</div>
+
+<footer>© <span id="year"></span> جميع الحقوق محفوظة</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
